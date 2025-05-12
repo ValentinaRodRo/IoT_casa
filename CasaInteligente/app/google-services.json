@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "334889030131",
+    "firebase_url": "https://iot-2025-9a21f-default-rtdb.firebaseio.com",
+    "project_id": "iot-2025-9a21f",
+    "storage_bucket": "iot-2025-9a21f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334889030131:android:201f222002e85f0699c286",
+        "android_client_info": {
+          "package_name": "com.valelulyrod.casainteligente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMRh1lnq4xnbU56oFWsxUOJab4iMgT_hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

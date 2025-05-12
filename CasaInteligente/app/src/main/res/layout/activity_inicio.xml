@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutInicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/baby_blue"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:textColor="@color/gray_blue"
+        android:fontFamily="@font/bebas"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnCocina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luz Cocina"
+        android:backgroundTint="@color/blue"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnSala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luz Sala"
+        android:backgroundTint="@color/blue"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnPersiana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persiana"
+        android:backgroundTint="@color/blue"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnAlarma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarma"
+        android:backgroundTint="@color/blue"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"/>
+</LinearLayout>

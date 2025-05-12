@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="@color/baby_blue"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/TituloCasa"
+        android:text="Registrate"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="192dp"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/bebas"
+        />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/et_format"
+        android:hint="Nombre"
+        android:padding="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:backgroundTint="@color/gray_blue"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text=""
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:id="@+id/editCorreo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Correo"
+        android:backgroundTint="@color/gray_blue"
+        android:background="@drawable/et_format"
+
+
+
+        />
+
+    <Spinner
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/gray_blue"
+        android:background="@drawable/et_format"
+        />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/sing"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/orange"
+        android:padding="20dp"
+        android:text="Sign up"
+        android:textAlignment="center" />
+
+</LinearLayout>
