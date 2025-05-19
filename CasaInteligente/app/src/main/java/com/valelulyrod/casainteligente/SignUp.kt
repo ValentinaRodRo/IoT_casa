@@ -62,6 +62,8 @@ class SignUp : AppCompatActivity() {
                 "alarma" to true,
                 "luz_cocina" to true,
                 "luz_sala" to true,
+                "luz_comedor" to true,
+                "luz_alcoba" to true,
                 "persiana" to true
             )
             "hijos" -> mapOf(
@@ -69,6 +71,8 @@ class SignUp : AppCompatActivity() {
                 "alarma" to false,
                 "luz_cocina" to true,
                 "luz_sala" to true,
+                "luz_comedor" to true,
+                "luz_alcoba" to true,
                 "persiana" to false
             )
             "invitados" -> mapOf(
@@ -76,6 +80,8 @@ class SignUp : AppCompatActivity() {
                 "alarma" to false,
                 "luz_cocina" to true,
                 "luz_sala" to false,
+                "luz_comedor" to true,
+                "luz_alcoba" to false,
                 "persiana" to false
             )
             else -> emptyMap()
