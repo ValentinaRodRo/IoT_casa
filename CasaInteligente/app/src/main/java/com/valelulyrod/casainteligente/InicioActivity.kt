@@ -17,6 +17,9 @@ class InicioActivity : AppCompatActivity() {
     private lateinit var btnPersiana: Button
     private lateinit var btnAlarma: Button
     private lateinit var textBienvenida: TextView
+    private lateinit var btnAlcoba: Button
+    private lateinit var btnComedor: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +36,9 @@ class InicioActivity : AppCompatActivity() {
         btnSala = findViewById(R.id.btnSala)
         btnPersiana = findViewById(R.id.btnPersiana)
         btnAlarma = findViewById(R.id.btnAlarma)
+        btnAlcoba = findViewById(R.id.btnAlcoba)
+        btnComedor = findViewById(R.id.btnComedor)
+
 
         textBienvenida.text = "Hola, $nombreUsuario 👋"
 
@@ -48,6 +54,8 @@ class InicioActivity : AppCompatActivity() {
                 configurarBoton(btnSala, "sala", snapshot.child("luz_sala").getValue(Boolean::class.java) == true)
                 configurarBoton(btnPersiana, "persiana", snapshot.child("persiana").getValue(Boolean::class.java) == true)
                 configurarBoton(btnAlarma, "alarma", snapshot.child("alarma").getValue(Boolean::class.java) == true)
+                configurarBoton(btnAlcoba, "alcoba", snapshot.child("luz_alcoba").getValue(Boolean::class.java) == true)
+                configurarBoton(btnComedor, "comedor", snapshot.child("luz_comedor").getValue(Boolean::class.java) == true)
             }
         }.addOnFailureListener {
             Toast.makeText(this, "Error al cargar permisos", Toast.LENGTH_SHORT).show()
